@@ -1,15 +1,11 @@
-# Blade Player
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/vhaudiquet/BladePlayer?style=flat-square)
-![license](https://img.shields.io/github/license/vhaudiquet/BladePlayer?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/vhaudiquet/BladePlayer?style=flat-square)
-![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/vhaudiquet/BladePlayer/latest?style=flat-square)
+# SomeGeetha Player
 
 <!-- Logo -->
 
-Blade is an open source music player for Android, allowing you to play music from multiple
+SomeGeetha is an open source music player for Android, allowing you to play music from multiple
 services : files on your phone, [Spotify], and more.
 
-Blade is available on [Google Play], or [here on GitHub].
+SomeGeetha is available on [Google Play], or [here on GitHub].
 It seems to also be on [IzzySoft F-Droid], and to stay up to date there.
 
 Other repos like ~~[Aptoide]~~ or even ~~[ApkPure]~~, ~~[ApkCombo]~~ are not recommended because
@@ -23,7 +19,7 @@ to stay up to date fast, and i can't check if they modified the `apk` before pub
 
 ## Feature overview
 
-Blade Player is developed by me ([@vhaudiquet]) alone, so the project cannot be tested on many
+SomeGeetha Player is developed by me, so the project cannot be tested on many
 devices and scenarios ; if you find an issue, open one here.
 
 - The app will open on your library, categorized as Artists, Albums, Songs, and Playlists (available
@@ -40,7 +36,7 @@ devices and scenarios ; if you find an issue, open one here.
 - The "explore" mode allows you to search and browse sources for new music (for example
   search all Spotify and look for new releases)
 - It has a layout that can adapt for tablet users (landscape layout)
-- It is available in different languages : English, French, German, Turkish ([and you can easily help me traduce it](CONTRIBUTING.md))
+- It is available in different languages : English, French, German, Turkish.
 
 <div align="center" style="text-align: center;">
   <img src="https://valou3433.fr/bladef0.png" width="200" style="max-width: 200;"/>
@@ -88,40 +84,4 @@ New features and bug fixes or improvements are coming. Here is a list of what i 
 - Add new services : SoundCloud, YouTube Music, Amazon Music, Tidal, WebDAV/FTP Servers...
 - CORE: 'Blade' playlists, that can contain song from all sources
 
-## Contributing
 
-See [CONTRIBUTING.md]
-
-## Older versions
-
-If you want older (i.e. < 2.0) versions of Blade, you can check the [old repository].
-
-[Google Play]:https://play.google.com/store/apps/details?id=v.blade
-
-[here on GitHub]:https://github.com/vhaudiquet/BladePlayer/releases
-
-[IzzySoft F-Droid]:https://apt.izzysoft.de/fdroid/index/apk/v.blade
-
-[Aptoide]:https://blade-blade.en.aptoide.com/app
-
-[ApkPure]:https://apkpure.com/blade-player/v.blade/
-
-[ApkCombo]:https://apkcombo.com/blade-player/v.blade/
-
-[Spotify]:https://www.spotify.com
-
-[old repository]:https://github.com/vhaudiquet/blade-player
-
-[Spotify Android Auth]:https://github.com/spotify/android-auth
-
-[Retrofit]:https://github.com/square/retrofit
-
-[Spotify Web API]:https://developer.spotify.com/documentation/web-api/
-
-[librespot-java]:https://github.com/librespot-org/librespot-java
-
-[librespot-org]:https://github.com/librespot-org
-
-[@vhaudiquet]:https://github.com/vhaudiquet
-
-[CONTRIBUTING.md]:CONTRIBUTING.md
