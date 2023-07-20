@@ -55,21 +55,21 @@ devices and scenarios ; if you find an issue, open one here.
 
 ### About Spotify
 
-You will need a **Spotify Premium** account to play music from [Spotify], but you can use Blade
+You will need a **Spotify Premium** account to play music from [Spotify], but you can use SomeGeetha
 without a premium account (to play your Spotify playlists from other sources, for example)
 
-Blade is using the official [Spotify Android Auth] library and [Retrofit] to access
+SomeGeetha is using the official [Spotify Android Auth] library and [Retrofit] to access
 the [Spotify Web API], i.e. to obtain user library and playlists. In order to play music from
-Spotify, Blade uses the [librespot-java] library.
+Spotify, SomeGeetha uses the [librespot-java] library.
 
-For now, Blade will act as a Spotify Connect peripheral. **Please do not try to control Blade with
+For now, SomeGeetha will act as a Spotify Connect peripheral. **Please do not try to control SomeGeetha with
 Spotify Connect**. It won't work, and it will glitch the app.
 
-When connecting Blade and Spotify, i am for now obligated to ask directly for your username and
+When connecting SomeGeetha and Spotify, i am for now obligated to ask directly for your username and
 password, 2 times : one for [librespot-java], which requires them directly (Spotify does not allow
 streaming music from their API authentification), and one for [Spotify Android Auth], which uses the
 secure OAuth2 protocol. I can only promise you that i am not stealing your credentials ; if you are
-paranoid, you may build Blade from sources or use a network analyzer to see that all network traffic
+paranoid, you may build SomeGeetha from sources or use a network analyzer to see that all network traffic
 goes to [Spotify] servers.
 
 Special thanks to the people at [librespot-org] and [librespot-java] ; without them, Spotify support
@@ -82,6 +82,6 @@ New features and bug fixes or improvements are coming. Here is a list of what i 
 - SPOTIFY: Use Android Native Decoders, and/or libtremolo if native decoder not present
 - UI: Show albums in an 'album view' instead of a list
 - Add new services : SoundCloud, YouTube Music, Amazon Music, Tidal, WebDAV/FTP Servers...
-- CORE: 'Blade' playlists, that can contain song from all sources
+- CORE: 'SomeGeetha' playlists, that can contain song from all sources
 
 
